@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="btSysdiaBootstrap3Carousel">
+    <field name="bID" type="I">
+      <key />
+      <unsigned />
+    </field>
+    <field name="name" type="C" size="50"></field>
+    <field name="slideTimer" type="I"><unsigned /></field>
+    <field name="withIndicators" type="I1">
+      <unsigned />
+      <notnull />
+      <default value="1" />
+    </field>
+    <field name="withChevrons" type="I1">
+      <unsigned />
+      <notnull />
+      <default value="1" />
+    </field>
+  </table>
+
+  <table name="btSysdiaBootstrap3CarouselImg">
+    <field name="imgId" type="I">
+      <key />
+      <autoincrement />
+      <unsigned />
+    </field>
+    <field name="bID" type="I"><unsigned /></field>
+    <field name="fID" type="I"><unsigned /></field>
+    <field name="overlayTitle" type="C" size="255"></field>
+    <field name="overlayContent" type="X"></field>
+    <field name="overlayButtonText" type="C" size="255"></field>
+    <field name="overlayButtonLink" type="C" size="255"></field>
+    <field name="overlayButtonClass" type="C" size="255"></field>
+    <field name="position" type="I"><unsigned /></field>
+    <field name="imgHeight" type="I"><unsigned /></field>
+  </table>
+
+</schema>
