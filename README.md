@@ -12,6 +12,5 @@ Requirements
 Installation
 ------------
 
-  * Copy the bootstrap3_carousel folder into your Concrete5 blocks folder (the one at root level of your install).
+  * Copy the sysdia_bootstrap3_carousel folder into your Concrete5 blocks folder (the one at root level of your install).
   * Install the block via the Blocks section in the Concrete5 dashboard and you should then be able to add this block to your pages.
-  
